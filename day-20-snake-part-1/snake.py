@@ -39,5 +39,14 @@ class Snake:
         if self.head.heading() != 180:
             self.head.setheading(0)
 
+    def getFood(self):
+        new_x = self.head.xcor()
+        new_y = self.head.ycor()
+        segment = Turtle(shape="square")
+        segment.color("white")
+        segment.penup()
+        segment.goto((new_x, new_y))
+        self.segments.append(segment)
+
         
 
