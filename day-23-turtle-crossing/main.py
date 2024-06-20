@@ -32,7 +32,6 @@ while game_is_on:
             scoreboard.game_over()
 
     if player.is_at_finish_line():
-        print(scoreboard.score)
         player.go_to_start()
         scoreboard.increase_score()
         car_manager.level_up()
