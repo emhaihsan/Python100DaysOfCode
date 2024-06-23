@@ -25,6 +25,7 @@ This repository contains all the project from my journey through the 100 Days of
 8. [Function Parameter](#day-8)
 
 
+
 ## How to Use This Repository
 
 1. **Clone the repository:**
