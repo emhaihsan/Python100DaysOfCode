@@ -15,15 +15,121 @@ This repository contains all the project from my journey through the 100 Days of
 
 ## Table of Contents
 
-1. [Working with Variables](#day-1)
-2. [Understanding Data Types](#day-2)
-3. [Control Flow and Logical Operators](#day-3)
-4. [Randomisation and Python Lists](#day-4)
-5. [Python Loops](#day-5)
-6. [Python Functions](#day-6)
-7. [Hangman](#day-7)
-8. [Function Parameter](#day-8)
+### Beginner
+|Day|Topics|Project|
+|-|-|-|
+|1|Working with Variables in Python to Manage Data|[Band Name Generator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/day-1-band-name-generator)|
+|2|||
+|3|||
+|4|||
+|5|||
+|6|||
+|7|||
+|8|||
+|9|||
+|10|||
+|11|||
+|12|||
+|13|||
+|14|||
+### Intermediate
+|Day|Topics|Project|
+|-|-|-|
+|15|||
+|16|||
+|17|||
+|18|||
+|19|||
+|20|||
+|21|||
+|22|||
+|23|||
+|24|||
+|25|||
+|26|||
+|27|||
+|28|||
+|29|||
+|30|||
+|31|||
 
+### Intermediate+
+
+|Day|Topics|Project|
+|-|-|-|
+|32|||
+|33|||
+|34|||
+|35|||
+|36|||
+|37|||
+|38|||
+|39|||
+|40|||
+|41|||
+|42|||
+|43|||
+|44|||
+|45|||
+|46|||
+|47|||
+|48|||
+|49|||
+|50|||
+|51|||
+|52|||
+|53|||
+|54|||
+|55|||
+|56|||
+|57|||
+|58|||
+### Advanced
+|Day|Topics|Project|
+|-|-|-|
+|59|||
+|60|||
+|61|||
+|62|||
+|63|||
+|64|||
+|65|||
+|66|||
+|67|||
+|68|||
+|69|||
+|70|||
+|71|||
+|72|||
+|73|||
+|74|||
+|75|||
+|76|||
+|77|||
+|78|||
+|79|||
+|80|||
+|81|||
+|82|||
+### Professional
+|83|||
+|84|||
+|85|||
+|86|||
+|87|||
+|88|||
+|89|||
+|90|||
+|91|||
+|92|||
+|93|||
+|94|||
+|95|||
+|96|||
+|97|||
+|98|||
+|99|||
+|100|||
 
 
 ## How to Use This Repository
