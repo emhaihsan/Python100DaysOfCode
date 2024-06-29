@@ -3,25 +3,39 @@ import pandas as pd
 import random
 BACKGROUND_COLOR = "#B1DDC6"
 word = ""
+
 # STEP 2.1 Read the data
-data = pd.read_csv("data/french_words.csv")
-words = data.to_dict(orient="records")
+try:
+    data = pd.read_csv("data/words_to_learn.csv")
+    words = data.to_dict(orient="records")
+except FileNotFoundError:
+    data = pd.read_csv("data/french_words.csv")
+    words = data.to_dict(orient="records")
+    
 flip = None
 
 # STEP 2.2 Pick a random word
 def pick_word():
     global word
     global flip
+    global window
     word = random.choice(words)
     canvas.itemconfig(background, image=bg_white)
     canvas.itemconfig(lang_text, text="French", fill="black")
     canvas.itemconfig(word_text, text=word["French"], fill="black")
-    flip =window.after(3000, flip_card)
+    flip = window.after(3000, flip_card)
+
+def remove_word():
+    words.remove(word)
+    data = pd.DataFrame(words)
+    data.to_csv("data/words_to_learn.csv", index=False)
+    pick_word()
 
 # STEP 3 Flip the Cards
 def flip_card():
     global word
     global flip
+    global window
     canvas.itemconfig(lang_text, text="English", fill="white")
     canvas.itemconfig(word_text, text=word["English"], fill="white")
     canvas.itemconfig(background, image=bg_green)
@@ -43,7 +57,7 @@ lang_text = canvas.create_text(400, 150, text="French", font=("Ariel", 40, "ital
 word_text = canvas.create_text(400, 263, text="Word", font=("Ariel", 60, "bold"))
 
 right_img = tkinter.PhotoImage(file="images/right.png")
-right_button = tkinter.Button(image=right_img, highlightthickness=0, command=pick_word)
+right_button = tkinter.Button(image=right_img, highlightthickness=0, command=remove_word)
 right_button.grid(column=1, row=3)
 
 wrong_img = tkinter.PhotoImage(file="images/wrong.png")
