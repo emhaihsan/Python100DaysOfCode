@@ -9,24 +9,21 @@ Welcome to the Python 100 Days Of Code Project repository! This repository is de
 - **Instructor:** Angela Yu
 - **Platform:** Udemy
 
-## Project Description
-
-This repository contains all the project from my journey through the 100 Days of Code course. 
 
 ## Table of Contents
 
 ### Beginner
 |Day|Topics|Project|
 |-|-|-|
-|1|Working with Variables in Python to Manage Data|[Band Name Generator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/day-1-band-name-generator)|
-|2|Understanding Data Types and How to Manipulate String|[Tip Calculator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/day-2-tip-calculator)|
-|3|||
-|4|||
-|5|||
-|6|||
-|7|||
-|8|||
-|9|||
+|1|Working with Variables in Python to Manage Data|[Band Name Generator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-1-band-name-generator)|
+|2|Understanding Data Types and How to Manipulate String|[Tip Calculator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-2-tip-calculator)|
+|3|Control Flow and Logical Operators|[Treasure Island](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-3-treasure-island)|
+|4|Randomisation and Python Lists|[Rock, Paper, Scissors](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-4-rock-paper-scissors)|
+|5|Python Loops|[Random Password Generator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-5-random-password-generator)|
+|6|Python Functions & Karel|[Escaping The Maze](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-6-escaping-the-maze)|
+|7|Hangman|[Hangman](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-7-hangman)|
+|8|Function Parameters & Caesar Cipher|[Caesar Cipher](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-8-caesar-cipher)|
+|9|Dictionaries, Nesting, and Secret Auction|[Secret Auction](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/1-Beginner/day-9-secret-auction)|
 |10|||
 |11|||
 |12|||
@@ -112,6 +109,8 @@ This repository contains all the project from my journey through the 100 Days of
 |81|||
 |82|||
 ### Professional
+|Day|Topics|Project|
+|-|-|-|
 |83|||
 |84|||
 |85|||
