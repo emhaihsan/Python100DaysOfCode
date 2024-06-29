@@ -19,7 +19,7 @@ This repository contains all the project from my journey through the 100 Days of
 |Day|Topics|Project|
 |-|-|-|
 |1|Working with Variables in Python to Manage Data|[Band Name Generator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/day-1-band-name-generator)|
-|2|||
+|2|Understanding Data Types and How to Manipulate String|[Tip Calculator](https://github.com/emhaihsan/Python100DaysOfCode/tree/main/day-2-tip-calculator)|
 |3|||
 |4|||
 |5|||

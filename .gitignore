@@ -2,4 +2,6 @@
 __pycache__
 .idea
 
+# experiment files
+main_local.py
 tes.ipynb
