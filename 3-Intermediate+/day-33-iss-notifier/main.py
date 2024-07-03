@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 import smtplib
 
-MY_EMAIL= "store.bewiser@gmail.com"
-MY_PASSWORD= "uofjasvuvhflzvrl"
+MY_EMAIL= "YOUR EMAIL HERE"
+MY_PASSWORD= "YOUR PASSWORD HERE"
 MY_LAT = -7.795580 # Your latitude
 MY_LONG = 110.369492 # Your longitude
 
