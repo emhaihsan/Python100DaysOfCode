@@ -5,3 +5,5 @@ __pycache__
 # experiment files
 main_local.py
 tes.ipynb
+
+mydata.py
