@@ -1,8 +1,9 @@
 import tkinter
+from quiz_brain import QuizBrain
 THEME_COLOR = "#375362"
 
 class QuizInterface:
-    def __init__(self, quiz_brain):
+    def __init__(self, quiz_brain: QuizBrain):
         self.quiz = quiz_brain
         self.window = tkinter.Tk()
         self.window.title("Quizzler")
@@ -23,11 +24,11 @@ class QuizInterface:
         self.canvas.grid(row=1, column=0, columnspan=2, pady=50)
 
         true_img = tkinter.PhotoImage(file="images/true.png")
-        self.true_button = tkinter.Button(image=true_img, highlightthickness=0, command=self.check_answer)
+        self.true_button = tkinter.Button(image=true_img, highlightthickness=0, command=self.true_pressed)
         self.true_button.grid(row=2, column=0)
 
         false_img = tkinter.PhotoImage(file="images/false.png")
-        self.false_button = tkinter.Button(image=false_img, highlightthickness=0, command=self.check_answer)
+        self.false_button = tkinter.Button(image=false_img, highlightthickness=0, command=self.false_pressed)
         self.false_button.grid(row=2, column=1)
 
         self.get_next_question()
@@ -46,8 +47,14 @@ class QuizInterface:
             self.false_button.config(state="disabled")
 
     def check_answer(self, user_answer):
-        correct_answer = self.quiz.check_answer(user_answer)
-        self.give_feedback(correct_answer)
+        return self.quiz.check_answer(user_answer)
+        
+
+    def true_pressed(self):
+        self.give_feedback(self.quiz.check_answer("True"))
+
+    def false_pressed(self):
+        self.give_feedback(self.quiz.check_answer("False"))
 
     def give_feedback(self, is_right):
         if is_right:
