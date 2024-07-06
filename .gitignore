@@ -1,9 +1,10 @@
 .DS_Store
 __pycache__
 .idea
+.env
 
 # experiment files
 main_local.py
 tes.ipynb
-
+tes.py
 mydata.py
