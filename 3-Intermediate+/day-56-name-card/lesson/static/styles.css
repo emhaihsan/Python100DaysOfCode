@@ -1,0 +1,10 @@
+/* static/styles.css */
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
